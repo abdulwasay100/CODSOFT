@@ -1,0 +1,323 @@
+.nav{
+    display: flex;
+    justify-content: center;
+    background-color:black;
+}
+*{
+    background-color:whitesmoke;
+    padding: 0;
+    margin: 0;
+}
+.nav ul{
+    display: flex;
+    margin: 22px;
+    background-color: black;
+    list-style: none;
+}
+.nav ul li{
+    font-weight: 700;
+    display: flex;
+    background-color:black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: medium;
+}
+.nav ul li a{
+    background-color: black;
+    padding: 7px;
+    color:white;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    background-color:rgb(93, 12, 12);
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.headings{
+    font-size: 36px;
+    margin-top: 35px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+.main{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid white;
+}
+
+.btn{
+     padding: 10px 35px;
+     background-color: transparent;
+     color: black;
+     outline: none;
+     transition: .6s ease;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: white;
+    border-radius: 5%;
+    background-color: black;
+    font-weight: bold;
+}
+.about{
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    padding-bottom: 50px;
+justify-content: center;
+}
+.about:hover{
+    color: white;
+    background-color: rgb(71, 71, 103);
+}
+
+.student p{
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    background-color:rgb(71, 71, 103);
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    word-spacing: 10px;
+    text-align: center;
+}
+.student p:hover{
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    border-radius: 50px;
+    background-color:black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    word-spacing: 10px;
+    text-align: center;
+}
+.abouts{
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    padding-bottom: 50px;
+justify-content: center;
+}
+.certificates p{
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+    font-size: larger;
+    display: flex;
+    background-color:rgb(71, 71, 103);
+    align-items: center;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    word-spacing: 10px;
+    text-align: center;
+}
+.certificates p:hover{
+    border-radius: 50px;
+    background-color:black;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    word-spacing: 10px;
+    text-align: center;
+}
+.abouts:hover{
+    color: white;
+    background-color: rgb(71, 71, 103);
+}
+.abo{
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    font-size: 2rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-bottom: 50px;
+justify-content: center;
+}
+.abo:hover{
+    color: white;
+    background-color: rgb(71, 71, 103);
+}
+.aboo{
+    display: flex;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 2rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+.aboo:hover{
+    color: white;
+    background-color: rgb(71, 71, 103);
+}
+.pro{
+    display: flex;
+    background-color:rgb(71, 71, 103);
+    align-items: center;
+    justify-content: space-around;
+    font-size: larger;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    word-spacing: 10px;
+    text-align: center;
+}
+.pro:hover{
+    display: flex;
+    border-radius: 50px;
+    background-color:black;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    font-size: larger;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    word-spacing: 10px;
+    text-align: center;
+}
+.square-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border: 2px solid black; /* Add a white border */
+    box-sizing: border-box; /* Ensure the border is included in the width and height */
+    color: black;
+    position: relative;
+    animation-duration: 23s;
+    animation-iteration-count: infinite;
+    animation-name: new;
+    animation-fill-mode: alternate;
+}
+.square-container:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 330px;
+    height: 330px;
+    background-color: black;
+    border:5px solid black; /* Add a white border */
+    box-sizing: border-box; /* Ensure the border is included in the width and height */
+    color: rgb(71, 71, 103); ;
+    position: relative;
+    animation-duration: 23s;
+    animation-iteration-count: infinite;
+    animation-name: new;
+    animation-fill-mode: alternate;
+}
+
+@keyframes new {
+    0% {
+    top: 0;
+    left: 0;
+    background-color: rgb(71, 71, 103);
+  }
+  25% {
+    top: 0px;
+    left:20x;
+   background-color: black;
+  }
+  75% {
+    top:0px;
+    right:40px ;
+    background-color: rgb(71, 71, 103);
+  }
+  100% {
+    top:0px ;
+    left: 60px;
+    background-color:black;
+  }
+}
+
+  .paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    font-style: italic;
+    text-align: center;
+  }
+  .popi{
+    border-radius: 20px;
+    justify-content: center;
+    background-color: rgb(71, 71, 103);
+    padding: 5px 5px;
+    align-items: center;
+}
+#mySubmitButton {
+    background-color: rgb(71, 71, 103);
+    color: black;
+    border:black;
+    padding: 15px 25px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 9px;
+}
+  
+  #mySubmitButton:hover {
+    
+    background-color: black;
+    color:  white;
+  }
+  
+  #mySubmitButton:active {
+    background-color: red;
+  }
+  
+  @media (min-width: 350px) and (max-width: 1800px)
+ {
+    #home::before{
+        content: "";
+        position: absolute;
+        top: 270px;
+        left: 60px;
+        background: url('img/1.jpg') no-repeat center/cover;
+        height: 130px;
+        padding: 30px;
+        width: 130px;
+        border-radius:50%;
+    }
+  }
